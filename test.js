@@ -2,7 +2,7 @@
 function turtle(height, speed, rollDown) {
   let road = 0
   let day = true
-  let numberOfDays = 0
+  let numberOfDays = 1
   while (road < height) {
     if (day) {
       road += speed
